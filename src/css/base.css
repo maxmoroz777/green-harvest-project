@@ -1,15 +1,35 @@
 body {
     font-family: "Inter Tight", sans-serif;
-
 }
 
+ul,
+ol {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 .container {
-
     padding: 0 15;
     margin: 0 auto;
-
+    max-width: 375px;
 }
 
 svg {
@@ -18,10 +38,8 @@ svg {
 }
 
 
-
-.container {
-    max-width: 375px;
-
+button {
+    cursor: pointer;
 }
 
 
@@ -29,7 +47,6 @@ svg {
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
-
     }
 }
 
@@ -41,6 +58,5 @@ svg {
 @media screen and (min-width: 1280px) {
     .container {
         max-width: 1280px;
-
     }
 }
