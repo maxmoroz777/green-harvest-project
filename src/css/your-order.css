@@ -184,6 +184,11 @@
     gap: 8px;
 }
 
+.social-networks-item:hover,
+.social-networks-item:focus {
+    color: lightgreen;
+}
+
 .social-networks-item,
 .social-slash {
     font-weight: 600;
