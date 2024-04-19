@@ -150,6 +150,12 @@
     color: #fbfbfb;
 }
 
+.your-order-submit-button:hover {
+    background-color: lightgreen;
+    color: #576f35;
+    transition-duration: 500ms;
+}
+
 .your-order-socials {
     max-width: 335px;
     height: 465px;
