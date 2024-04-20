@@ -13,14 +13,6 @@
     align-items: center;
 } */
 
-.image-works-section {
-    display: block;
-    padding: 40px 10px;
-
-    max-width: 100%;
-    margin: auto;
-}
-
 /* .image-ho-work-container {
     align-items: center;
     text-align: center;
@@ -28,7 +20,7 @@
 } */
 
 .image-how-it-works {
-    background-color: #7a3145;
+    /* background-color: #7a3145; */
     padding: 40px 20px;
     height: 530px;
     max-width: 100%;
@@ -39,8 +31,9 @@
     border-radius: 30px;
     display: block;
     max-width: 335px;
-    max-height: 450px;
+    height: 450px;
     margin: auto;
+    /* background-color: red; */
 }
 
 /*
