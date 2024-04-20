@@ -2,7 +2,7 @@
     background-color: #7a3145;
 }
 
-.your-order {
+.container-your-order {
     max-width: 375px;
     margin: auto;
     padding: 80px 20px;
@@ -207,7 +207,7 @@
 /* TABLET */
 
 @media only screen and (min-width: 768px) {
-    .container {
+    .container-your-order {
         max-width: 768px;
         padding: 100px 32px;
     }
@@ -307,7 +307,7 @@
 }
 
 @media only screen and (min-width: 1280px) {
-    .container {
+    .container-your-order {
         max-width: 1280px;
         padding: 100px;
     }
