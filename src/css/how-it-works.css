@@ -3,7 +3,6 @@
     padding: 40px 20px;
     max-height: 530px;
     max-width: 100%;
-
 }
 
 .how-it-works-picture {
@@ -21,6 +20,11 @@
 
 .container-text {
     margin-bottom: 40px;
+}
+
+.container-how-work {
+    max-width: 335px;
+    margin: auto;
 }
 
 .how-works-title {
@@ -64,22 +68,6 @@
     min-height: 76px;
 }
 
-/* .button-icon-works {
-    border-radius: 50%;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.0;
-    letter-spacing: -0.02em;
-    color: #fbfbfb;
-    box-shadow: 0px 0px 0px 5px rgba(122, 49, 69, 0.3);
-    width: 52px;
-    height: 52px;
-    padding: 6px 19px;
-    background-color: #7a3145;
-
-
-} */
-
 .how-works-list {
     counter-reset: howitworks;
     list-style-type: none;
@@ -113,29 +101,24 @@
     margin: auto 0;
     margin-left: 24px;
     max-width: 208px;
-
 }
 
 .how-works-item-text-second {
     max-width: 176px;
 }
 
-
 .transf-color-work-text {
     font-weight: 700;
     color: #141414;
 }
 
-/* 
-.how-works-item-text::before(css counter) {
-    content: counter(my-counter);
-    margin-right: 0.5em;
-    font-weight: bold;
-} */
-
 
 
 @media only screen and (min-width: 768px) {
+
+    .container-how-work {
+        max-width: 450px;
+    }
 
     .image-how-it-works {
         padding: 100px 64px;
@@ -144,9 +127,50 @@
 
     .how-it-works-picture {
         max-height: 640px;
-
     }
+
+    .how-it-works-text {
+        padding: 100px 159px;
+    }
+
+    .how-works-title {
+
+        font-size: 32px;
+    }
+
+    .how-works-title {
+        font-size: 32px;
+        max-width: 450px;
+        margin-bottom: 25px;
+    }
+
+    .how-works-paragraf {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .container-text {
+        margin-bottom: 40px;
+    }
+
+    .how-works-item-text {
+        font-size: 16px;
+        line-height: 1.25;
+        max-width: 325px;
+    }
+
+
+
+
+
+
+
 }
+
+
+
+
+
 
 
 @media screen and (min-width: 1280px) {
