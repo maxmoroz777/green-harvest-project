@@ -92,5 +92,8 @@
         max-width: 465px;
     }
 
-
+    .hero-picture {
+        margin: 0;
+        width: 650px;
+    }
 }
