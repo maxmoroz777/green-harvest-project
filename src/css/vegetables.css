@@ -98,7 +98,7 @@
     }
 
     .container-vegetables {
-        min-width: 704px;
+        max-width: 704px;
         margin: 0 auto;
     }
 
