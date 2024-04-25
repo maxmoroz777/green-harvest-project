@@ -86,71 +86,65 @@
     text-align: center;
 }
 
-.vegetables-images {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 .title-transform-color {
     color: rgba(251, 251, 251, 0.3);
 }
 
-/* @media screen and (min-width: 375px) {
-    .container {
-        width: 375px;
-    }
-} */
 
-@media screen and (min-width: 768px) {
-    /* .container {
-        width: 768px;
-    } */
+@media only screen and (min-width: 768px) {
 
     .vegetables-section {
-        display: flex;
-        text-align: center;
-        padding: 100px 64px;
+        padding: 100px 32px;
     }
 
-    .vegetables-title {
-        margin-bottom: 50px;
-        font-size: 64px;
-        line-height: 1.0;
+    .container-vegetables {
+        min-width: 704px;
+        margin: 0 auto;
     }
 
-    .vegetables-paragraf {
-        margin-bottom: 50px;
+    .veg-section-header {
         max-width: 626px;
-        font-size: 16px;
-        line-height: 1.25;
-    }
-
-    .vegetables-list {
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 28px 20px;
-    }
-
-    .vegetables-item {
-        width: calc((100% - 20px) / 2);
-        padding: 0px;
-
+        margin-bottom: 50px;
     }
 
     .vegetables-cont-text {
-        padding-top: 32px;
-        padding-left: 30px;
-        padding-bottom: 10px;
+        margin-bottom: 10px;
     }
 
+    .vegetables-title {
+        font-size: 64px;
+        line-height: 1;
+        text-align: left;
+        margin-bottom: 50px;
+        width: 508px;
+    }
+
+    .vegetables-paragraf {
+        font-size: 16px;
+        line-height: 1.25;
+        width: 626px;
+    }
+
+    .vegetables-list {
+        flex-wrap: wrap;
+        flex-direction: row;
+        min-width: 704px;
+        row-gap: 28px;
+        column-gap: 20px;
+    }
+
+    .vegetables-item {
+        padding: 32px 30px;
+        max-width: 342px;
+    }
+
+    .vegetables-subtitle {
+        font-size: 32px;
+        line-height: 1;
+    }
 }
 
-.vegetables-images {
-    padding: 0px 30px 32px 30px;
-}
-
-
+/* }
 
 @media screen and (min-width: 1280px) {
 
@@ -169,4 +163,4 @@
         width: calc((100% - 42px) / 3);
 
     }
-}
+} */
