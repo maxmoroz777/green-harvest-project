@@ -90,7 +90,6 @@
     color: rgba(251, 251, 251, 0.3);
 }
 
-
 @media only screen and (min-width: 768px) {
 
     .vegetables-section {
@@ -99,7 +98,6 @@
 
     .container-vegetables {
         max-width: 704px;
-        margin: 0 auto;
     }
 
     .veg-section-header {
@@ -144,23 +142,23 @@
     }
 }
 
-/* }
-
-@media screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
 
     .vegetables-section {
         padding: 100px;
     }
 
+    .container-vegetables {
+        max-width: 1080px;
+    }
+
     .vegetables-list {
-        flex-direction: row;
-        flex-wrap: wrap;
+        min-width: 1080px;
         column-gap: 21px;
-        row-gap: 28px
     }
 
     .vegetables-item {
-        width: calc((100% - 42px) / 3);
-
+        padding: 32px;
+        max-width: 346px;
     }
-} */
+}
