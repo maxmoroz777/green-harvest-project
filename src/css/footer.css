@@ -20,6 +20,16 @@
     margin-bottom: 14px;
 }
 
+.svg-logo-text {
+    width: 148px;
+    height: 16px;
+}
+
+.svg-logo-grill {
+    width: 16px;
+    height: 16px;
+}
+
 .footer-paragraf {
     font-weight: 500;
     font-size: 14px;
@@ -40,6 +50,10 @@
     line-height: 1;
     letter-spacing: -0.01em;
     color: #fbfbfb;
+}
+
+.footer-contacts-item:hover {
+    color: #da7791;
 }
 
 .footer-address {
@@ -68,4 +82,117 @@
     letter-spacing: -0.01em;
     color: rgba(251, 251, 251, 0.5);
     justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .section-footer {
+        padding: 32px;
+    }
+
+    .container-footer {
+        max-width: 704px;
+    }
+
+    .footer-logo-contacts {
+        display: flex;
+        max-width: 704px;
+        justify-content: space-between;
+        height: 295px;
+        margin-bottom: 100px;
+    }
+
+    .footer-logo-header {
+        margin: 0;
+    }
+
+    .container-svg-logo {
+        gap: 8px;
+        margin-bottom: 25px;
+    }
+
+    .svg-logo-text {
+        width: 168px;
+        height: 18px;
+    }
+
+    .svg-logo-grill {
+        width: 18px;
+        height: 18px;
+    }
+
+    .footer-paragraf {
+        max-width: 265px;
+        font-size: 16px;
+        line-height: 1.25;
+        color: #fbfbfb;
+    }
+
+    .footer-contacts {
+        width: 215px;
+    }
+
+    .footer-contacts-list {
+        gap: 25px;
+        margin-bottom: 64px;
+    }
+
+    .footer-contacts-item {
+        font-size: 32px;
+    }
+
+    .footer-address {
+        font-size: 18px;
+        line-height: 1.11111;
+        /* margin-bottom: 100px; */
+    }
+
+    .footer-address-prgf {
+        margin-top: 25px;
+    }
+
+    .container-footer-policy {
+        font-size: 18px;
+        line-height: 1.11111;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+
+    .section-footer {
+        padding: 50px 100px;
+    }
+
+    .container-footer {
+        max-width: 1080px;
+    }
+
+    .footer-logo-contacts {
+        display: flex;
+        max-width: 1080px;
+        justify-content: space-between;
+        height: 146px;
+        margin-bottom: 125px;
+    }
+
+    .footer-logo-header {
+        margin: 0;
+    }
+
+    .footer-contacts {
+        display: flex;
+        justify-content: space-between;
+        width: 513px;
+    }
+
+    .footer-contacts-list {
+        max-width: 178px;
+        margin: 0;
+    }
+
+    .footer-address {
+        margin: 0;
+        width: 215px;
+    }
+
 }
