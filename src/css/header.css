@@ -1,21 +1,152 @@
 .header {
-  padding: 20px 0;
+  padding: 20px;
+  padding-bottom: 48px;
+  background-color: #576F35;
 }
 
-.nav-list {
+.nav {
+  max-width: 332px;
+  height: 32px;
+  padding: 8px 0;
+  margin: 0 auto;
+}
+
+.header-logo {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.header-nav-desktop {
+  display: none;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.header-svg-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.svg-logo-text-header {
+  width: 148px;
+  height: 16px;
+}
+
+.svg-logo-grill-header {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.icon-burger {
+  width: 21px;
+  height: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    padding: 32px;
+    padding-bottom: 50px;
+  }
+
+  .nav {
+    max-width: 704px;
+    height: 40px;
+    padding: 11px 0;
+  }
+
+  .svg-logo-text-header {
+    width: 168px;
+    height: 18px;
+  }
+
+  .svg-logo-grill-header {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+  }
+
+  .icon-burger {
+    width: 27px;
+    height: 20px;
+  }
+}
+
+
+
+@media only screen and (min-width: 1280px) {
+
+  .header {
+    /* display: flex; */
+    padding: 0 100px;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .nav {
+    display: flex;
+    max-width: 1280px;
+    height: 52px;
+    padding: 0;
+    margin-top: 32px;
+    justify-content: space-between;
+  }
+
+  .icon-burger {
+    display: none;
+  }
+
+  .header-logo {
+    padding: 17px 0;
+  }
+
+  .overlay-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    background: none;
+  }
+
+  .header-nav-desktop {
+    display: flex;
+  }
+
+  .header-menu {
+    display: flex;
+    gap: 8px;
+    /* width: 312px; */
+  }
+
+  .header-menu-link {
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 12px;
+    padding: 12px;
+    height: 44px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    margin: auto 0;
+  }
+
+  .header-shop-now {
+    border-radius: 30px;
+    border-color: transparent;
+    padding: 16px 28px;
+    width: 157px;
+    height: 52px;
+    background: #7a3145;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.11111;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    margin-left: 20px;
+  }
+
 }

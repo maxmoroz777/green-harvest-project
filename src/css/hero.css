@@ -2,15 +2,10 @@
     background-color: #576F35;
 }
 
-/* .container {
-    max-width: 375px;
-    margin: auto;
-} */
-
 .hero-text {
     width: 100%;
     margin: auto;
-    padding: 100px 20px;
+    padding: 0 20px;
     padding-bottom: 40px;
 }
 
@@ -40,7 +35,7 @@
 @media only screen and (min-width: 768px) {
     .container {
         max-width: 768px;
-        padding-top: 122px;
+        padding-top: 0;
     }
 
     .hero-text {
