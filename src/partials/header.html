@@ -9,7 +9,7 @@
           <use href="./img/icons.svg#icon-green-harvest-mob"></use>
         </svg>
       </a>
-      <a href="#">
+      <a href="#" onclick="addClass()">
         <svg class="icon-burger">
           <use href="./img/icons.svg#icon-burger"></use>
         </svg>
@@ -24,4 +24,10 @@
       <button class="header-shop-now" type="button">shop now</button>
     </div>
   </nav>
+  <script>
+    function addClass() {
+      let v = document.getElementById("order-menu");
+      v.classList.add("is-open");
+    }
+  </script>
 </header>

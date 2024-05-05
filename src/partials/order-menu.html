@@ -1,5 +1,27 @@
-<section class="order-menu">
+<section class="order-menu" id="order-menu">
     <div class="order-menu-content">
-
+        <button class="order-menu-close-button" type="button" title="button">
+            <svg width="32" height="32" class="cross-icon" onclick="removeClass()">
+                <use href="./img/icons.svg#icon-cross-mob" class="cross-icon-use"></use>
+            </svg>
+        </button>
+        <ul class="order-menu-button-list">
+            <li class="menu-button">
+                <a href="#section-how-it-works" onclick="removeClass()">How It Works</a>
+            </li>
+            <li class="menu-button">
+                <a href="#vegetables-section" onclick="removeClass()">Vegetables</a>
+            </li>
+            <li class="menu-button">
+                <a href="#section-reviews" onclick="removeClass()">Reviews</a>
+            </li>
+        </ul>
+        <a class="menu-button-shop-now" href="#section-your-order" onclick="removeClass()">shop now</a>
     </div>
+    <script>
+        function removeClass() {
+            let v = document.getElementById("order-menu");
+            v.classList.remove("is-open");
+        }
+    </script>
 </section>
