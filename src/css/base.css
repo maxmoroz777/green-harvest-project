@@ -24,6 +24,7 @@ p {
 a {
     text-decoration: none;
     color: inherit;
+    -webkit-tap-highlight-color: transparent !important;
 }
 
 .container {
@@ -40,6 +41,7 @@ svg {
 
 button {
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent !important;
 }
 
 
