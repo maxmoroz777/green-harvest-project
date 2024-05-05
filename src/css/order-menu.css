@@ -1,0 +1,9 @@
+.order-menu {
+    background-color: #7a3145;
+}
+
+.order-menu-content {
+    min-width: 375px;
+    height: 500px;
+    border: 1px solid;
+}
